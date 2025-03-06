@@ -10,7 +10,7 @@ import {
   Globe, 
   Key, 
   FileText,
-  Refresh
+  RefreshCw
 } from "lucide-react";
 
 interface EducationalRevealProps {
@@ -125,7 +125,7 @@ const EducationalReveal: React.FC<EducationalRevealProps> = ({ onReset }) => {
                   className="flex items-center gap-2 bg-terminal-success hover:bg-terminal-success/80 text-terminal"
                   onClick={handleReset}
                 >
-                  <Refresh size={18} />
+                  <RefreshCw size={18} />
                   Run Simulation Again
                 </Button>
               </div>
